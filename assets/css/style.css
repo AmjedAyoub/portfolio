@@ -76,6 +76,11 @@
 
 .nav-item{
     text-align: center;
+    color: black;
+}
+
+#category{
+    color: black;
 }
 
 h4,.h4{
