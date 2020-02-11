@@ -74,8 +74,21 @@
     animation: none;
 }
 
+.nav-item{
+    text-align: center;
+}
+
+h4,.h4{
+    margin: 0 auto;
+}
+
+#card-body-edu{
+    text-align: start;
+}
+
 @media screen and (max-width: 992px) {
     .container-fluid{
         width: 1040px;
     }
 }
+
