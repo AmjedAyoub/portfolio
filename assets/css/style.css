@@ -77,6 +77,7 @@
 .nav-item{
     text-align: center;
     color: black;
+    width: -webkit-fill-available;
 }
 
 #category{
@@ -87,8 +88,17 @@ h4,.h4{
     margin: 0 auto;
 }
 
-#card-body-edu{
-    text-align: start;
+.header-tab{
+    background-color: navajowhite;
+}
+
+.eduImg{
+    width: 80%;
+    height: 80%;
+}
+
+.card-header{
+    background-color: whitesmoke !important;
 }
 
 @media screen and (max-width: 992px) {

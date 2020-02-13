@@ -50,3 +50,45 @@ function replaceWhiteSpaces(str) {
     console.log(str);
 
 }
+
+var mor=false;
+$(".more-details").on("click", function () {
+    var txt = $(".more-details").text();
+    console.log(txt);
+    if(!mor){
+        $(".more-details").text("Less details");
+        mor = true;
+    }
+    else {
+        $(".more-details").text("More details");
+        mor = false;
+    }
+})
+
+var mor2=false;
+$(".more-details2").on("click", function () {
+    var txt = $(".more-details2").text();
+    console.log(txt);
+    if(!mor2){
+        $(".more-details2").text("Less details");
+        mor2 = true;
+    }
+    else {
+        $(".more-details2").text("More details");
+        mor2 = false;
+    }
+})
+
+var mor3=false;
+$(".more-details3").on("click", function () {
+    var txt = $(".more-details3").text();
+    console.log(txt);
+    if(!mor3){
+        $(".more-details3").text("Less details");
+        mor3 = true;
+    }
+    else {
+        $(".more-details3").text("More details");
+        mor3 = false;
+    }
+})
