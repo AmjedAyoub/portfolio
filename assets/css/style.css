@@ -78,6 +78,7 @@
     text-align: center;
     color: black;
     width: -webkit-fill-available;
+    display: contents;
 }
 
 #category{
@@ -101,9 +102,212 @@ h4,.h4{
     background-color: whitesmoke !important;
 }
 
+
+/* Images Gallery Style*/
+
+.gallery .cc-porfolio-image figure {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.gallery .cc-porfolio-image figure img {
+    position: relative;
+    display: block;
+    max-width: 100%;
+    opacity: 1;
+}
+
+.gallery .cc-porfolio-image figure figcaption {
+    position: absolute;
+    color: #fff;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.gallery .cc-porfolio-image figure figcaption,
+.gallery .cc-porfolio-image figure figcaption>a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery .cc-porfolio-image figure figcaption>a {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+}
+
+.gallery .cc-porfolio-image figure .h4,
+.gallery .cc-porfolio-image figure p {
+    margin: 0;
+}
+
+.RecentProject {
+    text-align-last: center;
+    min-height: 300px;
+    color: rgb(26, 24, 46);
+}
+.RecentPr{
+    margin-bottom: 3rem;
+}
+.projectDisc{
+    float: right;
+    margin-top: 1rem;
+}
+
+.projectImgDisc{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    float: left;
+}
+.projectDisc2{
+    float: left;
+    margin-top: 1rem;
+}
+
+.headd{
+    /* background-color: rgba(34, 30, 30, 0.192); */
+}
+
+.projectImgDisc2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    float: right;
+}
+.projectImg{
+    height: 295px;
+} 
+
+.d-block{
+    width: 750px;
+    height: 500px;
+}
+
 @media screen and (max-width: 992px) {
     .container-fluid{
         width: 1040px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    body{
+        background-color: #315253;
+    }
+    .card {
+        background-color: #868e96;
+    }
+    .RecentProject {
+        background-color: #868e96;
+    }
+    .card-body {
+        background-color: #868e96;
+    }
+    .section {
+        background: #315253;
+    }
+    .input-group-addon {
+        background-color: #868e96;
+    }
+    .category {
+        color: #575050;
+    }
+    a {
+        color: #205125;
+    }
+    /* .githubBtn{
+        clear: both;
+    } */
+    .techAndTools{
+        float: none !important;
+    }
+    .bg-primary {
+        background-color: #1f5a5b !important;
+    }
+    .cc-education-header{
+        background-color: #1f5a5b !important;
+    }
+    .image-container.image-left {
+        margin-bottom: 220px;
+    }
+    .image-container.image-left p.blockquote {
+        margin: 0 auto;
+        position: relative;
+        right: 0;
+    }
+    .nav-tabs {
+        display: inline-block;
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
+        text-align: center;
+    }
+    .nav-tabs .nav-item>.nav-link {
+        margin-bottom: 5px;
+    }
+    .landing-page .section-story-overview .image-container:nth-child(2) {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    body{
+        background-color: #315253;
+    }
+    .card {
+        background-color: #868e96;
+    }
+    .RecentProject {
+        background-color: #868e96;
+    }
+    .card-body {
+        background-color: #868e96;
+    }
+    .section {
+        background: #315253;
+    }
+    .input-group-addon {
+        background-color: #868e96;
+    }
+    .category {
+        color: #575050;
+    }
+    a {
+        color: #205125;
+    }
+    .bg-primary {
+        background-color: #1f5a5b !important;
+    }
+    .cc-education-header{
+        background-color: #1f5a5b !important;
+    }
+    .techAndTools{
+        float: none !important;
+    }
+    /* .githubBtn{
+        clear: both;
+    } */
+    .navbar[class*='navbar-expand-'] .container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .footer .copyright {
+        text-align: center;
+    }
+    .section-nucleo-icons .icons-container i {
+        font-size: 30px;
+    }
+    .section-nucleo-icons .icons-container i:nth-child(6) {
+        font-size: 48px;
+    }
+    .page-header .container h6.category-absolute {
+        width: 90%;
     }
 }
 
