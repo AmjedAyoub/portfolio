@@ -13,5 +13,17 @@
     "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-open": "^3.0.1"
+  },
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmjedAyoub/portfolio.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/AmjedAyoub/portfolio/issues"
   }
 }
