@@ -24,5 +24,8 @@
   "keywords": [],
   "bugs": {
     "url": "https://github.com/AmjedAyoub/portfolio/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
