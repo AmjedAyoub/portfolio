@@ -25,5 +25,7 @@
   "bugs": {
     "url": "https://github.com/AmjedAyoub/portfolio/issues"
   },
-  "dependencies": {}
+  "dependencies": {
+    "lodash.template": ">=4.5.0"
+  }
 }
