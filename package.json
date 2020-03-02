@@ -1,8 +1,8 @@
 {
-  "name": "Amjed Ayoub Portfolio",
+  "name": "portfolio",
   "description": "Amjed Ayoub Portfolio, skills and experience. This is a modern and responsive design built with HTML template, CSS, Bootstrap 4, Now UI Kit and Font-Awesome.",
   "version": "1.0.0",
-  "homepage": "https://amjedayoub.github.io/portfolio",
+  "homepage": "https://amjedayoub.github.io/portfolio/",
   "author": "Amjed Ayoub",
   "devDependencies": {
     "gulp": "^3.9.1",
