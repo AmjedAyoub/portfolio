@@ -13,16 +13,5 @@
     "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.4"
   },
-  "main": "gulpfile.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AmjedAyoub/portfolio.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/AmjedAyoub/portfolio/issues"
-  },
-  "dependencies": {
-    "lodash.template": ">=4.5.0"
-  }
+  "main": "gulpfile.js"
 }
