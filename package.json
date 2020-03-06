@@ -12,6 +12,5 @@
     "gulp-open": "^3.0.1",
     "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.4"
-  },
-  "main": "gulpfile.js"
+  }
 }
