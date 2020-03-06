@@ -1,9 +1,9 @@
 {
-    "name": "project_name",
+    "name": "portfolio",
     "version": "1.0.0",
-    "description": "Project Description",
+    "description": "Amjed Ayoub Portfolio, skills and experience. This is a modern and responsive design built with HTML template, CSS, Bootstrap 4, Now UI Kit and Font-Awesome.",
     "scripts": {
-      "start": "serve",
+      "start": "serve"
     },
     "dependencies": {
       "serve": "^10.0.1"
