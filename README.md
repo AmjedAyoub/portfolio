@@ -58,6 +58,7 @@ git@github.com:AmjedAyoub/portfolio.git
 * Font-Awesome
 
 ## Links
+This application is deployed on Heroku, [Try it yourself](https://amjedayoub.herokuapp.com/).\
 This application is deployed on GitHub Pages, [Try it yourself](https://amjedayoub.github.io/portfolio/).\
 This application is published on [GitHub](https://github.com/AmjedAyoub/portfolio).
 
