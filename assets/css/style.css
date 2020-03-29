@@ -110,7 +110,7 @@ h4,.h4{
 .gallery .cc-porfolio-image figure img {
     position: relative;
     display: block;
-    max-width: 100%;
+    max-width: 92%;
     opacity: 1;
 }
 
@@ -178,6 +178,11 @@ h4,.h4{
 .projectImg{
     height: 295px;
 } 
+
+figure{
+    padding-top: 3rem !important;
+    padding-bottom: 2rem !important;
+}
 
 .d-block{
     width: 750px;
@@ -283,6 +288,28 @@ h4,.h4{
     .h4,.h5 {
         font-size: 1.2em;
     }
+}
+
+.rotateimg1{
+    -ms-transform: skewY(-10deg);
+    transform: skewY(-10deg);
+}
+.rotateimg2{
+    -ms-transform: skewY(10deg);
+    transform: skewY(10deg);
+}
+
+#containerfluid{
+    width: 1200px !important;
+    margin: auto;
+}
+
+.rightcol{
+    padding-left: 2rem;
+}
+
+.leftcol{
+    padding-right: 2rem;
 }
 
 @media screen and (max-width: 576px) {
