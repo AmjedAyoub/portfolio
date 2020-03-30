@@ -160,6 +160,7 @@ h4,.h4{
     margin-top: 1rem;
     margin-bottom: 1rem;
     float: left;
+    text-align: -webkit-center;
 }
 .projectDisc2{
     float: left;
@@ -204,6 +205,21 @@ figure{
 .vert .active.carousel-item-left {
 -webkit-transform: translate3d(0,-100%, 0);
         transform: translate3d(0,-100%, 0);
+}
+
+@media screen and (min-width: 992px) {
+    /* .container-fluid{
+        width: 1040px;
+    } */
+    .rotateimg1{
+        -ms-transform: skewY(-7deg);
+        transform: skewY(-7deg);
+    }
+    .rotateimg2{
+        -ms-transform: skewY(7deg);
+        transform: skewY(7deg);
+    }
+    
 }
 
 @media screen and (max-width: 992px) {
@@ -290,14 +306,7 @@ figure{
     }
 }
 
-.rotateimg1{
-    -ms-transform: skewY(-10deg);
-    transform: skewY(-10deg);
-}
-.rotateimg2{
-    -ms-transform: skewY(10deg);
-    transform: skewY(10deg);
-}
+
 
 #containerfluid{
     width: 1200px !important;
@@ -313,7 +322,19 @@ figure{
 }
 
 @media screen and (max-width: 576px) {
+    #containerfluid{
+        width: 100% !important;
+    }
+
+    .rightcol{
+        padding-left: 0rem;
+        width: 96% !important;
+    }
     
+    .leftcol{
+        padding-right: 0rem;
+        width: 96% !important;
+    }
     .h4,.h5 {
         font-size: 1.2em;
     }
