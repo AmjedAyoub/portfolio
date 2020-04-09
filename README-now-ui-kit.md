@@ -129,7 +129,6 @@ We use GitHub Issues as the official bug tracker for the Now UI Kit. Here are so
 - Copyright 2019 Creative Tim (https://www.creative-tim.com/?ref=nuk-readme)
 - [Creative Tim License](https://www.creative-tim.com/license).
 
-
 ## Useful Links
 
 - [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
