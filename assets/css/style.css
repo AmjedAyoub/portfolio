@@ -234,42 +234,9 @@ figure{
     .container-fluid {
         width: 100%;
     }
-    /* body{
-        background-color: #315253;
-    }
-    .card {
-        background-color: #868e96;
-    }
-    .RecentProject {
-        background-color: #868e96;
-    }
-    .card-body {
-        background-color: #868e9600;
-    }
-    .section {
-        background: #315253;
-    }
-    .input-group-addon {
-        background-color: #868e96;
-    }
-    .category {
-        color: #575050;
-    }
-    a {
-        color: #205125;
-    } */
-    /* .githubBtn{
-        clear: both;
-    } */
     .techAndTools{
         float: none !important;
     }
-    /* .bg-primary {
-        background-color: #1f5a5b !important;
-    }
-    .cc-education-header{
-        background-color: #1f5a5b !important;
-    } */
     .image-container.image-left {
         margin-bottom: 220px;
     }
@@ -292,12 +259,6 @@ figure{
         margin-left: 0;
         margin-bottom: 30px;
     }
-    /* #header-container{
-        margin-top: 11rem;
-    }
-    #col6-head{
-        margin-top: 10rem;
-    } */
     .edu-row{
         margin-right: -25%;
         margin-left: -25%;
