@@ -46,7 +46,6 @@ $("#sendEmail").on("click", function() {
 function replaceWhiteSpaces(str) {
     str = str.replace(" ", "%20");
     console.log(str);
-
 }
 
 var mor=false;
