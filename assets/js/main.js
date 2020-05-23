@@ -77,6 +77,7 @@ $(".more-details2").on("click", function () {
 })
 
 var mor3=false;
+
 $(".more-details3").on("click", function () {
     var txt = $(".more-details3").text();
     console.log(txt);
