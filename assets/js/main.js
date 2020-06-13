@@ -88,4 +88,81 @@ $(".more-details3").on("click", function () {
         $(".more-details3").text("More details");
         mor3 = false;
     }
+}
+)
+document.getElementById("wonderktich-P").style.display = "none";
+document.getElementById("littlelibrary-P").style.display = "none";
+document.getElementById("Imageaggr-P").style.display = "none";
+document.getElementById("royal-P").style.display = "none";
+document.getElementById("smart-P").style.display = "none";
+document.getElementById("master-P").style.display = "none";
+$(".wonderktich-P").on("click", function () {
+    console.log("hi");
+    document.getElementById("main-P").style.display = "none";
+    document.getElementById("wonderktich-P").style.display = "block";
+    document.getElementById("littlelibrary-P").style.display = "none";
+    document.getElementById("Imageaggr-P").style.display = "none";
+    document.getElementById("royal-P").style.display = "none";
+    document.getElementById("smart-P").style.display = "none";
+    document.getElementById("master-P").style.display = "none";
+})
+$(".littlelibrary-P").on("click", function () {
+    console.log("hi");
+    document.getElementById("main-P").style.display = "none";
+    document.getElementById("wonderktich-P").style.display = "none";
+    document.getElementById("littlelibrary-P").style.display = "block";
+    document.getElementById("Imageaggr-P").style.display = "none";
+    document.getElementById("royal-P").style.display = "none";
+    document.getElementById("smart-P").style.display = "none";
+    document.getElementById("master-P").style.display = "none";
+})
+$(".Imageaggr-P").on("click", function () {
+    console.log("hi");
+    document.getElementById("main-P").style.display = "none";
+    document.getElementById("wonderktich-P").style.display = "none";
+    document.getElementById("littlelibrary-P").style.display = "none";
+    document.getElementById("Imageaggr-P").style.display = "block";
+    document.getElementById("royal-P").style.display = "none";
+    document.getElementById("smart-P").style.display = "none";
+    document.getElementById("master-P").style.display = "none";
+})
+$(".master-P").on("click", function () {
+    console.log("hi");
+    document.getElementById("main-P").style.display = "none";
+    document.getElementById("wonderktich-P").style.display = "none";
+    document.getElementById("littlelibrary-P").style.display = "none";
+    document.getElementById("Imageaggr-P").style.display = "none";
+    document.getElementById("royal-P").style.display = "none";
+    document.getElementById("smart-P").style.display = "none";
+    document.getElementById("master-P").style.display = "block";
+})
+$(".royal-P").on("click", function () {
+    console.log("hi");
+    document.getElementById("main-P").style.display = "none";
+    document.getElementById("wonderktich-P").style.display = "none";
+    document.getElementById("littlelibrary-P").style.display = "none";
+    document.getElementById("Imageaggr-P").style.display = "none";
+    document.getElementById("royal-P").style.display = "block";
+    document.getElementById("smart-P").style.display = "none";
+    document.getElementById("master-P").style.display = "none";
+})
+$(".smart-P").on("click", function () {
+    console.log("hi");
+    document.getElementById("main-P").style.display = "none";
+    document.getElementById("wonderktich-P").style.display = "none";
+    document.getElementById("littlelibrary-P").style.display = "none";
+    document.getElementById("Imageaggr-P").style.display = "none";
+    document.getElementById("royal-P").style.display = "none";
+    document.getElementById("smart-P").style.display = "block";
+    document.getElementById("master-P").style.display = "none";
+})
+$(".proItem").on("click", function () {
+    console.log("hi");
+    document.getElementById("main-P").style.display = "block";
+    document.getElementById("wonderktich-P").style.display = "none";
+    document.getElementById("littlelibrary-P").style.display = "none";
+    document.getElementById("Imageaggr-P").style.display = "none";
+    document.getElementById("royal-P").style.display = "none";
+    document.getElementById("smart-P").style.display = "none";
+    document.getElementById("master-P").style.display = "none";
 })

@@ -4446,7 +4446,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .card .nav-tabs {
-  border-top-right-radius: 0.1875rem;
+  border-top-right-radius: 11.1875rem;
   border-top-left-radius: 0.1875rem;
 }
 
@@ -5958,7 +5958,7 @@ img {
 }
 
 .section {
-  padding: 70px 0;
+  padding: 50px 0;
   position: relative;
   background: #FFFFFF;
 }

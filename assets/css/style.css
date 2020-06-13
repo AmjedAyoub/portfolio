@@ -142,14 +142,32 @@ h4,.h4{
 .gallery .cc-porfolio-image figure p {
     margin: 0;
 }
-
+#wonderktich-P{
+    z-index: 9;
+}
 .RecentProject {
     text-align-last: center;
-    min-height: 300px;
+    width: 95%;
+    height: 98%;
     color: rgb(26, 24, 46);
+    margin: 2rem;
+}
+.RecentProjectM {
+    text-align-last: center;
+    width: fit-content !important;
+    height: min-content !important;
+    color: rgb(26, 24, 46);
+    cursor: pointer;
+}
+.RecentProjectB {
+    background-color: mistyrose;
+}
+.proImg{
+    width: max-content !important;
+    height: 250px !important;
 }
 .RecentPr{
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 .projectDisc{
     float: right;
@@ -174,14 +192,21 @@ h4,.h4{
     text-align: -webkit-center;
 }
 .projectImg{
-    height: 295px;
+    height: 300px;
 } 
 
 figure{
-    padding-top: 3rem !important;
-    padding-bottom: 2rem !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
 }
-
+.PIMG{
+    height: 500px;
+}
+.header-tab{
+    margin: 0.5rem;
+    border-top-right-radius: 11.1875rem;
+    border-top-left-radius: 0.1875rem;
+}
 .d-block{
     width: 750px;
     height: 500px;
@@ -215,6 +240,9 @@ figure{
     .rotateimg2{
         -ms-transform: skewY(7deg);
         transform: skewY(7deg);
+    } 
+    .edu-row{
+        width: -webkit-fill-available;
     }
     
 }
@@ -263,6 +291,10 @@ figure{
     }
 }
 
+#containerfluid2{
+    width: 1000px !important;
+    margin: auto;
+}
 #containerfluid{
     width: 1200px !important;
     margin: auto;
@@ -275,9 +307,21 @@ figure{
 .leftcol{
     padding-right: 2rem;
 }
+/* 
+.btn,
+.navbar .navbar-nav>a.btn{
+    background-color: palevioletred !important;
+} */
 
+.githubBtn{
+    background-color: palevioletred !important;
+    clear: both !important;
+}
 @media screen and (max-width: 576px) {
     #containerfluid{
+        width: 100% !important;
+    }
+    #containerfluid2{
         width: 100% !important;
     }
 
@@ -299,6 +343,9 @@ figure{
     }
     .container-fluid {
         width: 100%;
+    }   
+    .PIMG{
+        height: 270px;
     }
     body{
         background-color: #70523d;
@@ -307,6 +354,13 @@ figure{
         background-color: #d3bb77;
     }
     .RecentProject {
+        background-color: #d3bb77;
+        margin: 0.5rem;
+    }
+    .RecentProjectM {
+        background-color: #d3bb77;
+    }
+    .RecentProjectB {
         background-color: #d3bb77;
     }
     #header-container{
@@ -339,9 +393,9 @@ figure{
     .techAndTools{
         float: none !important;
     }
-    /* .githubBtn{
-        clear: both;
-    } */
+    .githubBtn{
+        background-color: palevioletred !important;
+    }
     .navbar[class*='navbar-expand-'] .container {
         margin-left: 0;
         margin-right: 0;
@@ -359,4 +413,162 @@ figure{
         width: 90%;
     }
 }
+
+/* Images Gallery Style*/
+
+.gallery .cc-porfolio-image figure {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.gallery .cc-porfolio-image figure img {
+    position: relative;
+    display: block;
+    max-width: 100%;
+    opacity: 1;
+}
+
+.gallery .cc-porfolio-image figure figcaption {
+    position: absolute;
+    color: #fff;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.gallery .cc-porfolio-image figure figcaption,
+.gallery .cc-porfolio-image figure figcaption>a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery .cc-porfolio-image figure figcaption>a {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+}
+
+.gallery .cc-porfolio-image figure .h4,
+.gallery .cc-porfolio-image figure p {
+    margin: 0;
+}
+
+.gallery figure.cc-effect figcaption::before,
+.gallery figure.cc-effect figcaption::after {
+    position: absolute;
+    content: '';
+    opacity: 0;
+}
+
+.gallery figure.cc-effect figcaption::before {
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    -webkit-transform: scale(0, 0);
+    transform: scale(0, 0);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+.gallery figure.cc-effect figcaption::after {
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    -webkit-transform: scale(0, 0);
+    transform: scale(0, 0);
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+}
+
+.gallery figure.cc-effect .h4 {
+    margin-top: 5%;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    transition: transform 0.35s, -webkit-transform 0.35s;
+    opacity: 0;
+}
+
+@media (max-width: 480px) {
+    .gallery figure.cc-effect .h4 {
+        font-size: 14px;
+    }
+}
+
+.gallery figcaption .container {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+}
+
+.gallery figure.cc-effect p,
+.gallery figure.cc-effect button {
+    padding: 0.5em 2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    transition: transform 0.35s, -webkit-transform 0.35s;
+    opacity: 0;
+}
+
+.gallery figure.cc-effect img,
+.gallery figure.cc-effect .h4 {
+    -webkit-transform: scale(1.06, 1.06);
+    transform: scale(1.06, 1.06);
+}
+
+.gallery figure.cc-effect img,
+.gallery figure.cc-effect figcaption::before,
+.gallery figure.cc-effect figcaption::after,
+.gallery figure.cc-effect p {
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+}
+
+.gallery figure.cc-effect:hover img {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.gallery figure.cc-effect:hover figcaption::before,
+.gallery figure.cc-effect:hover figcaption::after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.gallery figure.cc-effect:hover figcaption:before {
+    background: rgba(27, 23, 23, 0.856);
+}
+
+.gallery figure.cc-effect:hover .h4,
+.gallery figure.cc-effect:hover p,
+.gallery figure.cc-effect:hover button {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    color: #fff;
+}
+
+.gallery figure.cc-effect:hover figcaption::after,
+.gallery figure.cc-effect:hover .h4,
+.gallery figure.cc-effect:hover p,
+.gallery figure.cc-effect:hover img {
+    -webkit-transition-delay: 0.15s;
+    transition-delay: 0.15s;
+}
+
+
 
