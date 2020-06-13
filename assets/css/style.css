@@ -97,8 +97,26 @@ h4,.h4{
 .card-header{
     background-color: whitesmoke !important;
 }
-
-
+.fa-arrow-circle-left:before {
+    content: "\f0a8";
+  }
+  .fa-5x {
+    font-size: 5em !important;
+  }
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .fa-3x {
+    font-size: 3em;
+  }
+  .fa-globe:before {
+    content: "\f0ac";
+  }
 /* Images Gallery Style*/
 
 .gallery .cc-porfolio-image figure {
