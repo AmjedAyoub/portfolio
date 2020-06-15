@@ -1680,7 +1680,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 }
 
 .btn-primary {
-  background-color: #f96332;
+  background-color: #2f2fa2;
   color: #FFFFFF;
 }
 
@@ -1695,7 +1695,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 .show>.btn-primary.dropdown-toggle,
 .show>.btn-primary.dropdown-toggle:focus,
 .show>.btn-primary.dropdown-toggle:hover {
-  background-color: #fa7a50;
+  background-color: #3737a7;
   color: #FFFFFF;
   box-shadow: none;
 }
@@ -1728,13 +1728,13 @@ fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary.focus,
 fieldset[disabled] .btn-primary:active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #f96332;
-  border-color: #f96332;
+  background-color: #3737a7;
+  border-color: #3737a7;
 }
 
 .btn-primary.btn-simple {
-  color: #f96332;
-  border-color: #f96332;
+  color: #2f2fa2;
+  border-color: #2f2fa2;
 }
 
 .btn-primary.btn-simple:hover,
@@ -1749,13 +1749,13 @@ fieldset[disabled] .btn-primary.active {
 .show>.btn-primary.btn-simple.dropdown-toggle:focus,
 .show>.btn-primary.btn-simple.dropdown-toggle:hover {
   background-color: transparent;
-  color: #fa7a50;
-  border-color: #fa7a50;
+  color: #3737a7;
+  border-color: #3737a7;
   box-shadow: none;
 }
 
 .btn-primary.btn-link {
-  color: #f96332;
+  color: #2f2fa2;
 }
 
 .btn-primary.btn-link:hover,
@@ -1770,7 +1770,7 @@ fieldset[disabled] .btn-primary.active {
 .show>.btn-primary.btn-link.dropdown-toggle:focus,
 .show>.btn-primary.btn-link.dropdown-toggle:hover {
   background-color: transparent;
-  color: #fa7a50;
+  color: #3737a7;
   text-decoration: none;
   box-shadow: none;
 }
@@ -2229,7 +2229,7 @@ fieldset[disabled] .btn-neutral.active {
 .btn-neutral.btn-primary:hover,
 .btn-neutral.btn-primary:focus,
 .btn-neutral.btn-primary:active {
-  color: #fa7a50 !important;
+  color: #3737a7 !important;
 }
 
 .btn-neutral.btn-info {
@@ -2543,7 +2543,7 @@ fieldset[disabled] .btn-link.active {
 .btn-lg {
   font-size: 1em;
   border-radius: 0.25rem;
-  padding: 15px 48px;
+  /* padding: 15px 48px; */
 }
 
 .btn-lg[class*="btn-outline-"] {
@@ -3508,12 +3508,12 @@ small {
 }
 
 a {
-  color: #f96332;
+  color: #659dbd;
 }
 
 a:hover,
 a:focus {
-  color: #f96332;
+  color: #659dbd;
 }
 
 h1,
@@ -3800,7 +3800,7 @@ body {
 
 .nav-pills .nav-item .nav-link {
   padding: 10px 23px;
-  background-color: rgba(222, 222, 222, 0.3);
+  background-color: rgba(169, 171, 241, 0.35);
   min-width: 100px;
   font-weight: 400;
   text-align: center;
@@ -3846,7 +3846,7 @@ body {
 .nav-pills.nav-pills-primary .nav-item .nav-link.active,
 .nav-pills.nav-pills-primary .nav-item .nav-link.active:focus,
 .nav-pills.nav-pills-primary .nav-item .nav-link.active:hover {
-  background-color: #f96332;
+  background-color: #2f2fa2;
 }
 
 .nav-pills.nav-pills-info .nav-item .nav-link.active,
@@ -4681,7 +4681,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .bg-primary {
-  background-color: #f96332 !important;
+  background-color: #242582 !important;
 }
 
 .bg-info {
@@ -5428,7 +5428,7 @@ img {
 }
 
 .carousel .carousel-inner {
-  box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+  box-shadow:0px 10px 25px 0px rgba(83, 58, 124, 0.03);
   border-radius: 0.1875rem;
 }
 
@@ -5960,7 +5960,7 @@ img {
 .section {
   padding: 50px 0;
   position: relative;
-  background: #FFFFFF;
+  background: #edf2f8;
 }
 
 .section .row+.category {
@@ -6071,13 +6071,13 @@ img {
 .clear-filter[filter-color="orange"] {
   background: rgba(44, 44, 44, 0.2);
   /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+  background: -webkit-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(3, 193, 224, 0.6));
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+  background: -o-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(3, 193, 224, 0.6));
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+  background: -moz-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(3, 193, 224, 0.6));
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(3, 193, 224, 0.6));
   /* Standard syntax */
 }
 
@@ -6268,7 +6268,7 @@ img {
 }
 
 [data-background-color="black"] {
-  background-color: #2c2c2c;
+  background-color: #1e1e32;
 }
 
 [data-background-color]:not([data-background-color="gray"]) {
@@ -6504,15 +6504,15 @@ img {
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
   }
   .sidebar-collapse .navbar-collapse:before {
-    background: #f96332;
+    background: #242582;
     /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#f96332 0%, #000 80%);
+    background: -webkit-linear-gradient(#242582 0%, #000 80%);
     /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#f96332 0%, #000 80%);
+    background: -o-linear-gradient(#242582 0%, #000 80%);
     /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#f96332 0%, #000 80%);
+    background: -moz-linear-gradient(#242582 0%, #000 80%);
     /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#f96332 0%, #000 80%);
+    background: linear-gradient(#242582 0%, #000 80%);
     /* Standard syntax (must be last) */
     opacity: 0.76;
     filter: alpha(opacity=76);

@@ -4819,7 +4819,7 @@ img {
 .section {
   padding: 70px 0;
   position: relative;
-  background: #fff;
+  background: #edf2f8;
 }
 .section .row + .category {
   margin-top: 15px;
