@@ -4851,11 +4851,11 @@ a.badge-dark:focus {
   background-color: #007bff;
   transition: width 0.6s ease;
 }
-@media (prefers-reduced-motion: reduce) {
+/* @media (prefers-reduced-motion: reduce) {
   .progress-bar {
     transition: none;
   }
-}
+} */
 .progress-bar-striped {
   background-image: linear-gradient(
     45deg,
@@ -4873,12 +4873,12 @@ a.badge-dark:focus {
   -webkit-animation: progress-bar-stripes 1s linear infinite;
   animation: progress-bar-stripes 1s linear infinite;
 }
-@media (prefers-reduced-motion: reduce) {
+/* @media (prefers-reduced-motion: reduce) {
   .progress-bar-animated {
     -webkit-animation: none;
     animation: none;
   }
-}
+} */
 .media {
   display: -ms-flexbox;
   display: flex;
