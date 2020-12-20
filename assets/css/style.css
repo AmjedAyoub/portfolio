@@ -303,6 +303,7 @@ figure{
     .edu-row{
         margin-right: -25%;
         margin-left: -25%;
+        justify-content: space-between;
     }
     .container-fluid {
         width: 100%;
@@ -341,6 +342,7 @@ figure{
     .edu-row{
         margin-right: -25%;
         margin-left: -25%;
+        justify-content: space-between;
     }
     .h4,.h5 {
         font-size: 1.2em;
@@ -415,6 +417,7 @@ figure{
     .edu-row{
         margin-right: -25%;
         margin-left: -25%;
+        justify-content: space-between;
     }
     .container-fluid {
         width: 100%;
@@ -636,5 +639,9 @@ figure{
     transition-delay: 0.15s;
 }
 
+.eduCol{
+    max-width: 190px !important;
+    margin-bottom: 1rem;
+}
 
 
