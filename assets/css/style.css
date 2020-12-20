@@ -277,6 +277,7 @@ figure{
     .eduCol{
         margin-right: -25%;
         margin-left: -25%;
+        width: 200px !important;
     }
 }
 
@@ -365,8 +366,16 @@ figure{
     .page-header .container h6.category-absolute {
         width: 90%;
     }
+    .eduCol{
+        width: 200px !important;
+    }
 }
 
+@media screen and (max-width: 800px) {
+    .eduCol{    
+        width: -webkit-fill-available;
+    }
+}
 
 .rightcol{
     padding-left: 2rem;
@@ -638,8 +647,8 @@ figure{
     transition-delay: 0.15s;
 }
 
-.eduCol{
-    max-width: 190px !important;
+.eduCol{    
+    width: -webkit-fill-available;
     margin-bottom: 1rem;
 }
 
