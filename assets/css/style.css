@@ -266,14 +266,18 @@ figure{
 }
 
 @media screen and (min-width: 1029px) {
-#containerfluid2{
-    width: 1000px !important;
-    margin: auto;
-}
-#containerfluid{
-    width: 1200px !important;
-    margin: auto;
-}
+    #containerfluid2{
+        width: 1000px !important;
+        margin: auto;
+    }
+    #containerfluid{
+        width: 1200px !important;
+        margin: auto;
+    }
+    .eduCol{
+        margin-right: -25%;
+        margin-left: -25%;
+    }
 }
 
 @media screen and (max-width: 1028px) {
@@ -338,11 +342,6 @@ figure{
     .landing-page .section-story-overview .image-container:nth-child(2) {
         margin-left: 0;
         margin-bottom: 30px;
-    }
-    .edu-row{
-        margin-right: -25%;
-        margin-left: -25%;
-        justify-content: space-between;
     }
     .h4,.h5 {
         font-size: 1.2em;
@@ -642,6 +641,12 @@ figure{
 .eduCol{
     max-width: 190px !important;
     margin-bottom: 1rem;
+}
+
+.edu-row{
+    margin-right: -25%;
+    margin-left: -25%;
+    justify-content: space-between;
 }
 
 
