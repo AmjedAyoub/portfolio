@@ -12,6 +12,14 @@ cust-footer{
     padding: 20px;
 }
 
+.uni-img{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    margin-inline: auto;
+    border-radius: 30%;
+}
+
 #perl{
     width: 190px;
     height: 190px;
@@ -89,7 +97,7 @@ h4,.h4{
 }
 
 .header-tab{
-    background-color: #0677a1;
+    background-color: #3ec2f1;
 }
 
 .eduImg{
@@ -274,12 +282,10 @@ figure{
         width: 1200px !important;
         margin: auto;
     }
-    .eduCol{
-        margin-right: -25%;
-        margin-left: -25%;
-        width: 200px !important;
+    /* .header-tab{
+        width: 400px !important;
     }
-}
+} */
 
 @media screen and (max-width: 1028px) {
     #containerfluid{
@@ -366,9 +372,9 @@ figure{
     .page-header .container h6.category-absolute {
         width: 90%;
     }
-    .eduCol{
-        width: 200px !important;
-    }
+    /* .header-tab{
+        width: 500px !important;
+    } */
 }
 
 @media screen and (max-width: 800px) {
@@ -404,6 +410,11 @@ figure{
     }
     #containerfluid2{
         width: 100% !important;
+    }
+
+    .uniCol{    
+        text-align-last: center;
+        display: contents;
     }
 
     .rightcol{
@@ -649,7 +660,7 @@ figure{
 
 .eduCol{    
     width: -webkit-fill-available;
-    margin-bottom: 1rem;
+    margin-block: auto;
 }
 
 .edu-row{
