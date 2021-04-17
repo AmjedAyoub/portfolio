@@ -6,6 +6,13 @@ cust-footer{
     height: 110px;
 }
 
+.fun-projects{
+    height: 700px;
+    width: 95%;
+    margin: auto;
+    overflow-y: auto;
+}
+
 .skill-img{
     width: 130px;
     height: 120px;
@@ -177,7 +184,7 @@ h4,.h4{
 .RecentProject {
     text-align-last: center;
     width: 95%;
-    height: 98%;
+    height: fit-content;
     color: rgb(220, 219, 233);
     margin: 2rem;
 }
@@ -248,8 +255,8 @@ figure{
 }
 .header-tab{
     margin: 0.5rem;
-    border-top-right-radius: 11.1875rem;
-    border-top-left-radius: 0.1875rem;
+    border-top-right-radius: 5.1875rem;
+    border-top-left-radius: 1.1875rem;
 }
 .d-block{
     width: 750px;
@@ -282,10 +289,15 @@ figure{
         width: 1200px !important;
         margin: auto;
     }
+    .col-md-edu {
+        max-width: 50%;    
+        flex: 0 0 50%;
+        margin-inline: auto;
+    }
     /* .header-tab{
         width: 400px !important;
-    }
-} */
+    /* } */
+} 
 
 @media screen and (max-width: 1028px) {
     #containerfluid{
@@ -372,6 +384,11 @@ figure{
     .page-header .container h6.category-absolute {
         width: 90%;
     }
+    .col-md-edu {
+        max-width: 100%;    
+        flex: 0 0 75%;
+        margin-inline: auto;
+    }
     /* .header-tab{
         width: 500px !important;
     } */
@@ -380,6 +397,11 @@ figure{
 @media screen and (max-width: 800px) {
     .eduCol{    
         width: -webkit-fill-available;
+    }
+    .col-md-edu {
+        max-width: 100%;    
+        flex: 0 0 85%;
+        margin-inline: auto;
     }
 }
 
@@ -411,7 +433,11 @@ figure{
     #containerfluid2{
         width: 100% !important;
     }
-
+    .col-md-edu {
+        max-width: 100%;    
+        flex: 0 0 100%;
+        margin-inline: auto;
+    }
     .uniCol{    
         text-align-last: center;
         display: contents;
@@ -668,5 +694,3 @@ figure{
     margin-left: -25%;
     justify-content: space-between;
 }
-
-
